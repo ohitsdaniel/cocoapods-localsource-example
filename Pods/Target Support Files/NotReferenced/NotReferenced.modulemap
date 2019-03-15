@@ -1,0 +1,6 @@
+module NotReferenced {
+  umbrella header "NotReferenced-umbrella.h"
+
+  export *
+  module * { export * }
+}

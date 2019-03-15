@@ -1,0 +1,6 @@
+module Cool {
+  umbrella header "Cool-umbrella.h"
+
+  export *
+  module * { export * }
+}

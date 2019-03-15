@@ -1,0 +1,16 @@
+PODS:
+  - NotReferenced (0.1.0)
+
+DEPENDENCIES:
+  - NotReferenced (from `../`)
+
+EXTERNAL SOURCES:
+  NotReferenced:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NotReferenced: 55b22c4a0c1ef0a646834050fdb6c6e009c134cd
+
+PODFILE CHECKSUM: 4348a3629b97216aa20d1fec8942a5eb064f050c
+
+COCOAPODS: 1.7.0.beta.2

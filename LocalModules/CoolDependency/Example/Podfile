@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Cool_Tests' do
+  pod 'Cool', :path => '../'
+  
+  
+end

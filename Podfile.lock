@@ -1,0 +1,27 @@
+PODS:
+  - AwesomeLib (0.1.0):
+    - Cool (from `LocalModules/CoolDependency`)
+    - NotReferenced (from `LocalModules/NotReferencedLocalDependency`)
+  - Cool (0.1.0):
+    - NotReferenced (from `LocalModules/NotReferencedLocalDependency`)
+  - NotReferenced (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeLib (from `LocalModules/AwesomeLib`)
+  - Cool (from `LocalModules/CoolDependency`)
+
+EXTERNAL SOURCES:
+  AwesomeLib:
+    :path: LocalModules/AwesomeLib
+  Cool:
+    :cool: Yes
+    :path: LocalModules/CoolDependency
+
+SPEC CHECKSUMS:
+  AwesomeLib: 4009ba16a6385366471bf2ba5d6db0c9a8a406c9
+  Cool: 8359a9b2b96c01ca8af115d36933a79396267432
+  NotReferenced: d21fbb22892459d206bc3c0ce161a93cc0c8424a
+
+PODFILE CHECKSUM: 1ea2d2e4ac28377752fc81fc341e437a0620d663
+
+COCOAPODS: 1.7.0.beta.2

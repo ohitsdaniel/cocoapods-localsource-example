@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NotReferenced_Tests' do
+  pod 'NotReferenced', :path => '../'
+  
+  
+end

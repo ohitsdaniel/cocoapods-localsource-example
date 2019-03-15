@@ -1,0 +1,16 @@
+PODS:
+  - Cool (0.1.0)
+
+DEPENDENCIES:
+  - Cool (from `../`)
+
+EXTERNAL SOURCES:
+  Cool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cool: 6a289bce234fd11f4b8f3427422ba2398d347ecc
+
+PODFILE CHECKSUM: a80bf1eecbb71d4c606ad6a97f92b7a7fd7b700d
+
+COCOAPODS: 1.7.0.beta.2

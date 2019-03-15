@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AwesomeLib_Tests' do
+  pod 'AwesomeLib', :path => '../'
+  
+  
+end

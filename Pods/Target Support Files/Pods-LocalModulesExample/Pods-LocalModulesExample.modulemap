@@ -1,0 +1,6 @@
+module Pods_LocalModulesExample {
+  umbrella header "Pods-LocalModulesExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
